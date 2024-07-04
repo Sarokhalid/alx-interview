@@ -46,7 +46,7 @@ def nqueens(n):
     board = [[0] * n for i in range(n)]
     backtrack(0, n, cols, pos_diag, neg_diag, board)
 
-    
+
 if __name__ == "__main__":
     n = sys.argv
     if len(n) != 2:
