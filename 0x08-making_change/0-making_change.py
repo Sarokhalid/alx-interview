@@ -14,7 +14,7 @@ def makeChange(coins, total):
     temp = 0
     coins.sort(reverse=True)
     for i in coins:
-        while check < total: 
+        while check < total:
             check += i
             temp += 1
         if check == total:
